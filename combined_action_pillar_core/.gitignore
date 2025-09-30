@@ -1,0 +1,42 @@
+# General ROS ignore items
+build/
+devel/
+logs/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*~
+*.bak
+*.tmp
+*.temp
+
+*.onnx
+*.engine
+
+# Python virtual environments
+venv/
+*.venv
+env/
+*.env
+
+# IDE and editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Large or confidential data
+# Add any large model files you do not want to track or store in the repo
+
+# Others
+.DS_Store
+Thumbs.db
+
+# egg
+*.egg-info
+
+demo/samples/color_transcoded_out_gaze.mp4
+demo/samples/color_transcoded.mp4
+demo/samples/friends2_out.mp4
+demo/samples/friends2_out_gaze.mp4

@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>combined_action_pillar_core</name>
+  <version>0.1.0</version>
+  <description>Combined action perception core library for the PILLAR project.</description>
+  <maintainer email="info@pillar-project.eu">PILLAR WP2 Team</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_python</buildtool_depend>
+  <exec_depend>ament_python</exec_depend>
+</package>
